@@ -1,8 +1,9 @@
 # mrlg-nmap-script
 # 🔍 MRLG Vulnerability Detector (CVE-2014-3931)
 
-This Nmap NSE script detects vulnerable instances of **Multi-Router Looking Glass (MRLG)** affected by [CVE-2014-3931](https://nvd.nist.gov/vuln/detail/CVE-2014-3931). It parses version strings from public MRLG web interfaces and flags known exploitable versions (≤ 5.4.1), including suffix-labeled releases like `5.4.1+ad1 Beta`. Few days ago
-CISA just added Multi-Router Looking Glass (MRLG) Buffer Overflow Vulnerability to its KEV List (Known Exploited Vulnerabilities Catalog). 
+This Nmap NSE script detects vulnerable instances of **Multi-Router Looking Glass (MRLG)** affected by [CVE-2014-3931](https://nvd.nist.gov/vuln/detail/CVE-2014-3931). It parses version strings from public MRLG web interfaces and flags known exploitable versions (≤ 5.4.1), including suffix-labeled releases like `5.4.1+ad1 Beta`. 
+
+Few days ago CISA just added Multi-Router Looking Glass (MRLG) Buffer Overflow Vulnerability to its KEV List (Known Exploited Vulnerabilities Catalog). 
 
 ## 🚀 Features
 
